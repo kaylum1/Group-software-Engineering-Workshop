@@ -28,4 +28,5 @@ jobs:
 
     - name: Run tests
       run: |
+        cd week4Workshop/WorkShopDjang0/mysite
         python manage.py test
